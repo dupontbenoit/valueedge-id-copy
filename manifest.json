@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "ValueEdge ID copy",
+  "description": "Copy the ValueEdge ID to clipboard",
+  "version": "1.0",
+  "icons": {
+    "96": "icon.png"
+  },
+  "action": {},
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["https://*.microfocus.com/*"]
+}
