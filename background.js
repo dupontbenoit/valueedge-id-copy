@@ -3,7 +3,7 @@ chrome.action.onClicked.addListener((tab) => {
     target: { tabId: tab.id },
     function: () => {
       const ticketType = document
-        .querySelector(".entity-initials-text")
+        .querySelector(".entity-form-document-view-header-entity-name .entity-initials-text")
         .textContent.trim();
       const ticketId = document
         .querySelector(".entity-form-document-view-header-entity-id-container")
